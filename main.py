@@ -1,0 +1,1 @@
+print 'main 2.7 ok'
