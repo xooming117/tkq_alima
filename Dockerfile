@@ -10,7 +10,7 @@ COPY . /opt/tbk/chrome
 #ENTRYPOINT ["sh", "start.sh"]
 
 
-ENTRYPOINT ["python", "main.py"]
+#ENTRYPOINT ["python", "main.py"]
 #ENTRYPOINT ["python", "main.py"]
 #CMD ["sh", "start.sh", "&&", "python", "main.py"]
 #CMD ["python", "main.py"]
