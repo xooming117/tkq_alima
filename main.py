@@ -13,6 +13,8 @@ from account import *
 from conf import *
 from task import *
 
+print 'dsfsafdasfdasfdsaf'
+
 goods = Queue(256)  # 创建一个大小为32的对象，和 q 绑定
 
 # 开启采集商品信息任务
