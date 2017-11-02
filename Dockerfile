@@ -6,5 +6,8 @@ RUN pip install -r requirements.txt
 
 ENV DISPLAY :1
 COPY . /opt/tbk/chrome
-CMD ["sh", "start.sh", "&&", "python", "main.py"]
+
+ENTRYPOINT ["sh", "start.sh"]
+ENTRYPOINT ["python", "main.py"]
+#CMD ["sh", "start.sh", "&&", "python", "main.py"]
 #CMD ["python", "main.py"]
