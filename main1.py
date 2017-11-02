@@ -37,6 +37,7 @@ def init1():
 def init():
     init1()
     init1()
+    schedule.every(1).minutes.do(init1)
 
 def start():
     start_get_campaign_task()
