@@ -1,11 +1,11 @@
 FROM markadams/chromium-xvfb-py2
-WORKDIR /opt/tbk/chrome
-COPY ./requirements.txt /opt/tbk/chrome/requirements.txt
+WORKDIR /opt/tkq/chrome
+COPY ./requirements.txt /opt/tkq/chrome/requirements.txt
 
 RUN pip install -r requirements.txt
 
 ENV DISPLAY :1
-COPY . /opt/tbk/chrome
+COPY . /opt/tkq/chrome
 
 #ENTRYPOINT ["sh", "start.sh"]
 
