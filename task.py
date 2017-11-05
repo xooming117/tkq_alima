@@ -11,7 +11,7 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 
-def get_campaigns(goods):
+def get_campaigns():
     driver_old = None
 
     while True:
